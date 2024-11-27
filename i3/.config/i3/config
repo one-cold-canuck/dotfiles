@@ -24,7 +24,7 @@
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango: CaskaydiaMono Nerd Font 14
+font pango: CaskaydiaMono Nerd Font 12
 
 # set the mod key to the winkey:
 set $mod Mod4
@@ -173,7 +173,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 ######################################
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+q kill
